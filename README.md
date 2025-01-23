@@ -1,1 +1,1 @@
-Писал стили для css, которые изучил во втором спринте
+git@github.com:hiPupS/posmotri-v-okno-fd.git
