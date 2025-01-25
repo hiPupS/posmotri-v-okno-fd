@@ -228,8 +228,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  margin-bottom: 70px;
-  min-height: 534px;
+  min-height: 100%;
 }
 
 .title {
@@ -243,7 +242,6 @@ ol {
 
 .content__accent {
   opacity: 0.3;
-  font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
 }
@@ -258,9 +256,7 @@ ol {
 .content__list {
   max-block-size: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
   position: relative;
-  scrollbar-width: none;
 }
 
 .content__list-item:not(:last-child) {
