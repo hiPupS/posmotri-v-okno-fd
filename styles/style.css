@@ -53,7 +53,7 @@ ol {
 .content {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   align-items: flex-end;
 }
 
@@ -249,25 +249,27 @@ ol {
 .content__list-container {
   overflow: auto;
   height: 298px; 
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 
 
 .content__list {
-  max-block-size: 298px;
-  overflow-y: auto;
   position: relative;
 }
 
-.content__list-item:not(:last-child) {
-  padding-block-end: 32x;
+.content__list-item {
+  margin: 4px;
 }
 
 .content__card-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
   color: currentColor;
   text-decoration: none;
-  margin: 3px;
+  margin-bottom: 35px;
 }
 
 .content__card-link:active {
@@ -310,11 +312,9 @@ ol {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  margin-top: 4px;
   text-wrap: nowrap;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
   max-width: 200px;
 }
 
@@ -329,7 +329,6 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  height: 103px;
   object-fit: cover;
   width: 197px;
   object-position: center;
