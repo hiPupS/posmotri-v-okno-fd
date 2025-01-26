@@ -53,7 +53,7 @@ ol {
 .content {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   align-items: flex-end;
 }
 
@@ -242,8 +242,6 @@ ol {
 
 .content__accent {
   opacity: 0.3;
-  line-height: 70.5px;
-  text-transform: uppercase;
 }
 
 .content__list-container {
@@ -258,10 +256,6 @@ ol {
 
 .content__list {
   position: relative;
-}
-
-.content__list-item {
-  margin: 4px;
 }
 
 .content__card-link {
@@ -315,6 +309,7 @@ ol {
   text-wrap: nowrap;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   max-width: 200px;
 }
 
